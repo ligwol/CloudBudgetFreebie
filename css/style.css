@@ -1,0 +1,22 @@
+body{
+    font-family: Lato, sans-serif;
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+.header{
+    height: 782px;
+    text-decoration: none;
+    background-image: url(/images/background_3.png);
+    color: #fff;
+    
+}
+
+.header-nav{
+    text-transform: uppercase;
+    display: flex;
+}
+
+.header-nav_container{
+    display: flex;
+}
