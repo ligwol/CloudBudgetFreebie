@@ -10,6 +10,7 @@ h2{
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;
+    text-transform: capitalize;
  }
 
 h3{
@@ -17,6 +18,7 @@ h3{
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
+    text-transform: capitalize;
 }
 
 /*HEADER*/
@@ -149,13 +151,13 @@ h3{
 .video-section .video-section_vid .video-section_button{
     width: 66px;
     height: 66px;
-    border-radius: 50px;
-    background-color: #ED4C5C;
+    /* border-radius: 50px;
+    background-color: #ED4C5C; */
     position: absolute;
     left: -33px;
     
 }
-.video-section .video-section_vid .video-section_button i{
+/* .video-section .video-section_vid .video-section_button i{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -165,7 +167,7 @@ h3{
     top: 50%;
     transform: translate(-50%, -50%);
     
-}
+} */
 
 
 /*OVERVIEW*/
@@ -176,7 +178,6 @@ h3{
 }
 
 .overview h2{
-    text-transform: capitalize;
     text-align: center;
     color: #000000;
 }
@@ -235,7 +236,25 @@ h3{
     color: #ED4C5C;
 }
 
-/*FEATURES SECTION*/
+/*technology*/
+.technology{
+    padding: 70px 170px 130px 135px;
+    background-color: #fff;
+}
+
+.technology h2{
+    text-align: center;
+}
+
+.technology .technology-block{
+    padding: 110px 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.technology .technology-block .technology-block_images{
+    padding: 0 30px;
+}
 
 
 
