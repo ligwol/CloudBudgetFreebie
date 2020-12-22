@@ -238,7 +238,7 @@ h3{
 
 /*technology*/
 .technology{
-    padding: 70px 170px 130px 135px;
+    padding: 70px 165px 130px 165px;
     background-color: #fff;
 }
 
@@ -247,14 +247,48 @@ h3{
 }
 
 .technology .technology-block{
-    padding: 110px 0 0 0;
+    padding-top: 100px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
+
+.technology .technology-block .technology-block_b{
+    text-align: center;   
+    flex-basis: 25%;
+}
+
+.technology .technology-block .first,
+.technology .technology-block .second,
+.technology .technology-block .third{
+    padding-right: 70px;
+}
+
+
 
 .technology .technology-block .technology-block_images{
-    padding: 0 30px;
+    padding-bottom: 13px;
+    
 }
 
+.technology .technology-block .technology-block_b .technology-block_text{
+    /* padding: 13px 0; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+    overflow-wrap: break-word;
+}
 
+.technology .technology-block .technology-block_b .technology-block_text h3{
+    font-style: normal;
+    text-align: center;
+    color: #101010;
+}
+
+.technology .technology-block .technology-block_b .technology-block_text .technology-block_text_text{
+    padding: 15px 0;
+}
 
