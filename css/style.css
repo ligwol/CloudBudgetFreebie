@@ -292,3 +292,41 @@ h3{
     padding: 15px 0;
 }
 
+
+
+/*DOWNLOAD APP*/
+
+.download{
+    margin: 0 auto;
+    padding: 130px 160px 95px 160px;
+    background-color: #ED4C5C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evently;
+}
+
+.download .download-text{
+    padding-right: 80px;
+    color: #fff;
+    flex-basis: 50%;
+}
+
+.download .download-text .download-text_content{
+    padding: 50px 0 40px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify-content;
+}
+
+.download .download-text .download-text_apps{
+    font-size: 32px;
+}
+
+.download .download-images{
+    flex-basis: 50%;
+}
+
+/*CONTACT US*/
+
