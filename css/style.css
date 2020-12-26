@@ -35,7 +35,6 @@ h3{
     padding: 50px 50px;
     text-transform: uppercase;
     display: flex;
-    position: sticky;
     box-sizing: border-box;
     font-style: normal;
     font-weight: bold;
@@ -330,3 +329,134 @@ h3{
 
 /*CONTACT US*/
 
+.contact-us{
+    margin: 0 auto;
+    padding: 117px 165px 78px 165px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us .contact-us_text{
+    flex-basis: 50%;
+    margin-right: 125px;
+}
+
+.contact-us .contact-us_text_text{
+    padding-top: 50px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+.contact-us .contact-us_form{
+    flex-basis: 50%;
+}
+
+.contact-us .contact-us_form .contact-us_form_flname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-us .contact-us_form .contact-us_form_flname .input_fname{
+    margin-right: 30px;
+}
+
+.contact-us .contact-us_form .contact-us_form_rest{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us .contact-us_form_input{
+    margin: 0 0 25px 0;
+    padding: 20px 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    text-transform: capitalize;
+    color: rgba(19, 39, 67, 0.5);
+    border: 1px solid #333333;
+    border-radius: 6px;
+    transition: ease 300ms;
+}
+
+.contact-us .contact-us_form_input:hover{
+    border: 1px solid #ED4C5C;
+}
+
+.contact-us .contact-us_form .contact-us_form_rest select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.contact-us .contact-us_form .contact-us_form_rest select option{
+    /* padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: flex-end; */
+}
+
+.contact-us .contact-us_form .input_submit{
+    background: #ED4C5C;
+    padding: 20px 35px;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*FOOTER*/
+.footer{
+    padding: 85px 165px;
+    background-color: #fafafa;
+}
+
+.footer .blocks{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .blocks .first,
+.footer .blocks .second,
+.footer .blocks .third{
+    margin-right: 110px;
+}
+
+.footer .blocks .block li{
+    list-style-type: none;
+}
+
+.footer .blocks .block li ul{
+   padding: 0;
+   margin: 0;
+}
+
+.footer .blocks .footer-block_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-bottom: 105px;
+}
+
+.footer .copyright{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
