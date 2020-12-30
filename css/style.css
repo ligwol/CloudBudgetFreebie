@@ -24,7 +24,7 @@ h3{
 /*HEADER*/
 .header{
     height: 782px;
-    background-image: url(/images/background_3.png);
+    background-image: url(../images/background_3.png);
     color: #fff;
     margin: 0 auto;
 }
