@@ -13,17 +13,23 @@
 </head>
 
 <body>
+
     <header class="header">
 
-        <nav class=header-nav>
+        <button id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 
+        <nav class=header-nav id="main-menu">
+            
             <div class="header-nav_container">
                 <a href="#">
                     <i class="icon-cloud"></i>
                     cloudbudget
                 </a>
             </div>
-
             <div class="header-nav_container">
                 <a href="#">overview</a>
                 <a href="#">features</a>
@@ -60,7 +66,6 @@
                     login
                 </div>
             </div>
-
         </nav>
 
         <div class="header-content">
@@ -269,28 +274,32 @@
 
             <div class="contact-us_form">
                 <form action="#">
-                    
+
                     <div class="contact-us_form_flname">
                         <label for="fname"></label>
-                        <input type="text" id="fname" name="fname" placeholder="first name" required class="contact-us_form_input input_fname">
+                        <input type="text" id="fname" name="fname" placeholder="first name" required
+                            class="contact-us_form_input input_fname">
 
                         <label for="lname"></label>
-                        <input type="text" id="lname" name="lname" placeholder="last name" required class="contact-us_form_input input_lname">
+                        <input type="text" id="lname" name="lname" placeholder="last name" required
+                            class="contact-us_form_input input_lname">
                     </div>
 
                     <div class="contact-us_form_rest">
                         <label for="phnumber"></label>
-                        <input type="tel" id="phnumber" name="phnumber" placeholder="phone number" required class="contact-us_form_input input_phnumber"> 
+                        <input type="tel" id="phnumber" name="phnumber" placeholder="phone number" required
+                            class="contact-us_form_input input_phnumber">
 
                         <label for="services"></label>
-                        <select name="services" id="services" placeholder="select service" required class="contact-us_form_input input_services">
+                        <select name="services" id="services" placeholder="select service" required
+                            class="contact-us_form_input input_services">
                             <option value="select_service">Select service</option>
                             <option value="storage">Storage</option>
                             <option value="management">Management</option>
                         </select>
                     </div>
                     <input type="submit" value="submit now" class="input_submit">
-                    
+
 
                 </form>
             </div>
@@ -319,26 +328,26 @@
                     <li>
                         <ul>
                             <a href="#">
-                            overview</a>
+                                overview</a>
                         </ul>
                         <ul>
                             <a href="#">
-                            features
+                                features
                             </a>
                         </ul>
                         <ul>
                             <a href="#">
-                            technology
+                                technology
                             </a>
                         </ul>
                         <ul>
                             <a href="#">
-                            Terms & Conditions
+                                Terms & Conditions
                             </a>
                         </ul>
                         <ul>
-                            <a href="#">    
-                            Privacy
+                            <a href="#">
+                                Privacy
                             </a>
                         </ul>
                     </li>
@@ -376,6 +385,7 @@
         </div>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>
