@@ -179,9 +179,11 @@ h3{
     #burger-menu {
         display: block;
     }
-
+    .header{
+        position: relative;
+    }
     .header .header-nav{
-        position: fixed;
+        position: absolute;
         top: 0;
         right: -260px;
         display: flex;
