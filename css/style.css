@@ -544,11 +544,20 @@ h3{
 .contact-us .contact-us_form_input:hover{
     border: 1px solid #ED4C5C;
 }
+.contact-us .contact-us_form_input:focus{
+    border: 1px solid #ed4a5a;
+    box-shadow: rgba(237, 74, 90, .5) 0 0 5px;
+}
 
 .contact-us .contact-us_form .contact-us_form_rest select{
+    display: block;
     appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
+    cursor: pointer;
+    /* width: 100%; */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='butt' stroke-linejoin='butt' stroke-width='1' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 20px 16px;
 }
 
 .contact-us .contact-us_form .input_submit{
@@ -563,6 +572,7 @@ h3{
     line-height: 17px;
     text-transform: uppercase;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 950px){
