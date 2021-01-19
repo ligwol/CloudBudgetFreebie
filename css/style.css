@@ -72,7 +72,6 @@ h3{
 
 .header .header-nav .header-nav_container .header-nav_container_language .language_submenu{
     position: absolute;
-
     top: 80px;
     display: none;
     min-width: 100%;
@@ -186,7 +185,7 @@ h3{
         position: absolute;
         top: 0;
         right: -260px;
-        display: flex;
+        display: none;
         flex-direction: column;
         width: 100%;
         max-width: 260px;
@@ -203,7 +202,18 @@ h3{
     .header .header-nav.open{
         box-shadow: rgba(256,256,256,.5) 0 0 15px;
         right: 0;
+        display: flex;
     } 
+    .header .header-nav .header-nav_container .header-nav_container_language .language_submenu{
+        position: absolute;
+        top: 65vh;
+        left: 20vw;
+        display: none;
+        min-width: 100%;
+        padding: 10px 15px 20px;
+        transition: ease-in 500ms;
+    }
+
 }
 
 @media screen and (max-width: 550px){
