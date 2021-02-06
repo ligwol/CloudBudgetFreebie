@@ -173,7 +173,7 @@ h3{
     width: 32px;
 }
 
-@media screen and (max-width: 1090px){
+@media screen and (max-width: 1140px){
 
     #burger-menu {
         display: block;
@@ -216,7 +216,7 @@ h3{
 
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 540px){
     .header .header-content .header-content_title{
         font-size: 40px;
         font-weight: 800;
@@ -295,7 +295,7 @@ h3{
     
 } */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1140px){
     .video-section{
         flex-direction: column;
         padding: 40px;
@@ -308,6 +308,17 @@ h3{
         justify-content: center;
         padding:0;
         overflow-wrap: normal;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .video-section .video-section_text{
+        margin: 0px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .video-section .video-section_vid img{
+        width: 100%;
     }
 }
 
@@ -378,7 +389,7 @@ h3{
     color: #ED4C5C;
 }
 
-@media screen and (max-width: 1120px){
+@media screen and (max-width: 1140px){
     .overview .overview-card{
         flex-direction: column;
     }
@@ -444,7 +455,7 @@ h3{
     padding: 15px 0;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 540px){
     .technology .technology-block{
         display: flex;
         flex-direction: column;
@@ -491,7 +502,7 @@ h3{
     flex-basis: 50%;
 }
 
-@media screen and (max-width: 1130px){
+@media screen and (max-width: 1140px){
     .download {
         flex-direction: column;
         align-items: center;
@@ -500,6 +511,21 @@ h3{
     .download .download-text{
         padding: 0 0 40px 0;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .download {
+        padding: 50px;
+    }
+
+    .download .download-text{
+        padding: 0 0 40px 0;
+        text-align: center;
+    }
+
+    .download .download-images img{
+        width: 100%;
     }
 }
 
@@ -594,7 +620,7 @@ h3{
     cursor: pointer;
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 960px){
     .contact-us{
         flex-direction: column;
         align-items: center;
@@ -602,6 +628,28 @@ h3{
     .contact-us .contact-us_text{
         margin: 0;
         padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .contact-us{
+        padding: 50px;
+    }
+    .contact-us .contact-us_text{
+        margin: 0;
+        padding-bottom: 50px;
+    }
+
+    .contact-us .contact-us_form{
+        max-width: 400px;
+    }
+
+    .contact-us .contact-us_form .contact-us_form_flname .input_fname{
+        margin-right: 0;
+    }
+
+    .contact-us .contact-us_form .contact-us_form_flname{
+        flex-direction: column;
     }
 }
 
@@ -660,7 +708,7 @@ h3{
     color: #101010;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1140px){
     .footer .blocks{
         flex-direction: column;
     }
@@ -676,6 +724,12 @@ h3{
     .footer .blocks .footer-block_text ul li{
         display: inline;
         padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .footer{
+        padding: 50px;
     }
 }
 
