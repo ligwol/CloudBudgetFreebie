@@ -182,9 +182,10 @@ h3{
         position: relative;
     }
     .header .header-nav{
-        position: absolute;
+        position: fixed;
         top: 0;
         right: -260px;
+        z-index: 5;
         display: none;
         flex-direction: column;
         width: 100%;
@@ -193,6 +194,7 @@ h3{
         background-color: #ed4a5a;
         transition: 300ms ease;
     }
+    
     .header .header-nav .header-nav_container{
         display: flex;
         flex-direction: column;
@@ -204,10 +206,13 @@ h3{
         right: 0;
         display: flex;
     } 
+    .header .header-nav .header-nav_container .header-nav_container_language{
+        position: relative;
+    }
     .header .header-nav .header-nav_container .header-nav_container_language .language_submenu{
         position: absolute;
-        top: 65vh;
-        left: 20vw;
+        top: -15px;
+        left: 70px;
         display: none;
         min-width: 100%;
         padding: 10px 15px 20px;
